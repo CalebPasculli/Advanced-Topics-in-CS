@@ -1,11 +1,11 @@
 # Advanced-Topics-in-CS 
 This is the code for my Advanced Topics in CS project
-
 The code can be run in k shortest path mode using:
 
 python3 driver_competent.py --budget 1 --start 20 --fn adsim05 --algo ksp --k 2
 
-or it can be run in its other modes using:
+Where k is the number of shortest paths considered.
+Additionally it can be run in its other modes using:
 
 python3 honeypot/driver_competent.py --budget 10 --start 20 --fn adsim05 --algo mixed_attack
 
