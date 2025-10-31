@@ -12,8 +12,11 @@ python3 honeypot/driver_competent.py --budget 10 --start 20 --fn adsim05 --algo 
 --algo:
 
 mixed_attack: mip for the joint problem of competent and simple attacker
+
 greedy_flat: greedy algorithm for simple attacker
+
 greedy_competent: greedy algorithm for competent attacker
+
 
 Note these modes and a large majority of the code was not developed by me. The k shortest path algorithm is an extension of the existing honeypot placement algorithm which can be found at:
 
